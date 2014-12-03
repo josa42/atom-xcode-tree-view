@@ -1,0 +1,40 @@
+# '.platform-darwin':
+#   'cmd-\\': 'xcode-tree-view:toggle'
+#   'cmd-k cmd-b': 'xcode-tree-view:toggle'
+#   'cmd-|': 'xcode-tree-view:reveal-active-file'
+#   'ctrl-0': 'xcode-tree-view:toggle-focus'
+
+# '.platform-darwin .tree-view':
+#   'cmd-c': 'xcode-tree-view:copy'
+#   'cmd-x': 'xcode-tree-view:cut'
+#   'cmd-v': 'xcode-tree-view:paste'
+#   'ctrl-f': 'xcode-tree-view:expand-directory'
+#   'ctrl-b': 'xcode-tree-view:collapse-directory'
+
+# '.tree-view':
+#   'right': 'xcode-tree-view:expand-directory'
+#   'ctrl-]': 'xcode-tree-view:expand-directory'
+#   'l': 'xcode-tree-view:expand-directory'
+#   'left': 'xcode-tree-view:collapse-directory'
+#   'ctrl-[': 'xcode-tree-view:collapse-directory'
+#   'alt-ctrl-]': 'xcode-tree-view:recursive-expand-directory'
+#   'alt-right': 'xcode-tree-view:recursive-expand-directory'
+#   'alt-ctrl-[': 'xcode-tree-view:recursive-collapse-directory'
+#   'alt-left': 'xcode-tree-view:recursive-collapse-directory'
+#   'h': 'xcode-tree-view:collapse-directory'
+#   'enter': 'xcode-tree-view:open-selected-entry'
+#   'ctrl-C': 'xcode-tree-view:copy-full-path'
+#   'm': 'xcode-tree-view:move'
+#   'f2': 'xcode-tree-view:move'
+#   'a': 'xcode-tree-view:add-file'
+#   'shift-a': 'xcode-tree-view:add-folder'
+#   'd': 'xcode-tree-view:duplicate'
+#   'delete': 'xcode-tree-view:remove'
+#   'backspace': 'xcode-tree-view:remove'
+#   'k': 'core:move-up'
+#   'j': 'core:move-down'
+#   'i': 'xcode-tree-view:toggle-vcs-ignored-files'
+
+# '.tree-view-dialog .mini.editor':
+#   'enter': 'core:confirm'
+#   'escape': 'core:cancel'

@@ -1,0 +1,57 @@
+'menu': [
+  {
+    'label': 'View'
+    'submenu': [
+      { 'label': 'Toggle Xcode Tree View', 'command': 'xcode-tree-view:toggle' }
+    ]
+  }
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Xcode Tree View'
+      'submenu': [
+        { 'label': 'Focus', 'command': 'xcode-tree-view:toggle-focus' }
+        { 'label': 'Toggle', 'command': 'xcode-tree-view:toggle' }
+        { 'label': 'Reveal Active File', 'command': 'xcode-tree-view:reveal-active-file' }
+        { 'label': 'Toggle Tree Side', 'command': 'xcode-tree-view:toggle-side' }
+      ]
+    ]
+  }
+]
+
+'context-menu':
+  '.tree-view.full-menu':
+    'Add File': 'xcode-tree-view:add-file'
+    'Add Folder': 'xcode-tree-view:add-folder'
+    'separator1': '-'
+    'Rename': 'xcode-tree-view:move'
+    'Duplicate': 'xcode-tree-view:duplicate'
+    'Delete': 'xcode-tree-view:remove'
+    'Copy': 'xcode-tree-view:copy'
+    'Cut': 'xcode-tree-view:cut'
+    'Paste': 'xcode-tree-view:paste'
+    'separator2': '-'
+    'Copy Full Path': 'xcode-tree-view:copy-full-path'
+    'Copy Project Path': 'xcode-tree-view:copy-project-path'
+    'Open In New Window': 'xcode-tree-view:open-in-new-window'
+
+  '.platform-darwin .tree-view.full-menu':
+    'Show in Finder': 'xcode-tree-view:show-in-file-manager'
+
+  '.platform-win32 .tree-view.full-menu':
+    'Show in Explorer': 'xcode-tree-view:show-in-file-manager'
+
+  '.platform-linux .tree-view.full-menu':
+    'Show in File Manager': 'xcode-tree-view:show-in-file-manager'
+
+  '.tree-view.multi-select':
+    'Delete': 'xcode-tree-view:remove'
+    'Copy': 'xcode-tree-view:copy'
+    'Cut': 'xcode-tree-view:cut'
+    'Paste': 'xcode-tree-view:paste'
+
+  '.pane .item-views':
+    'Reveal in Tree View': 'xcode-tree-view:reveal-active-file'
+
+  '.pane .tab.active':
+    'Reveal in Tree View': 'xcode-tree-view:reveal-active-file'

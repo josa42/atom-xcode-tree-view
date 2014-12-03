@@ -1,0 +1,21 @@
+{
+  "name": "xcode-tree-view",
+  "version": "0.0.0",
+  "main": "./lib/main",
+  "description": "Explore and open files in a Xcode project.",
+  "repository": "https://github.com/josa42/atom-xcode-tree-view",
+  "license": "MIT",
+  "engines": {
+    "atom": "*"
+  },
+  "private": true,
+  "dependencies": {
+    "fs-plus": "^2.3.0",
+    "temp": "~0.7.0",
+    "underscore-plus": "1.x",
+    "wrench": "1.5.x",
+    "pathwatcher": "^2.0.12",
+    "event-kit": "~0.7.0",
+    "minimatch": "~0.3.0"
+  }
+}
